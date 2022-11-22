@@ -12,7 +12,7 @@ exports.create = function(req,res){
         nombre_p: req.body.nombre_p,
         nombre_m: req.body.nombre_m,
         edad: req.body.edad,
-        peso: req.body.peso
+        tipo: req.body.tippo
     })
 
     gallo.save(function(err){
@@ -50,7 +50,7 @@ exports.update = function(req,res){
         nombre_p: req.body.nombre_p,
         nombre_m: req.body.nombre_m,
         edad: req.body.edad,
-        peso: req.body.peso    
+        tipo: req.body.tipo  
     }
 
     Gallo.findByIdAndUpdate(req.params.id, {$set: gallo}, function(err){

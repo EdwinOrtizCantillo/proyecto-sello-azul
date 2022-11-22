@@ -34,6 +34,8 @@ export default class menu extends React.Component {
                                 </Row>
                             </Dropdown.Header>
                             <Dropdown.Divider />
+                            <Dropdown.Item href={"/gallos"}>Gallos</Dropdown.Item>
+                            <Dropdown.Item href={"/empleados"}>Empleados</Dropdown.Item>
                             <Dropdown.Item href={"/login"}>Cerrar Sesión</Dropdown.Item>
                             {/* <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item> */}

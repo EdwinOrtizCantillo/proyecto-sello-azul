@@ -8,7 +8,7 @@ const GallosSchema = new Schema({
     nombre_p:{type: String, required: true, max:60},
     nombre_m:{type: String, required: true, max:60},
     edad:{type: String, required: false, max:70},
-    peso:{type: String, required: false, max:50}
+    tipo:{type: String, required: false, max:50}
 });
 
 module.exports = mongoose.model("gallos", GallosSchema)
